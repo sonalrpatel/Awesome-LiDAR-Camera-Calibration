@@ -51,14 +51,14 @@ For applications such as autonomous driving, robotics, navigation systems, and 3
 |Paper|Feature|Optimization|Toolbox|Note|
 | --- | --- | --- | --- | --- |
 |[Automatic Targetless Extrinsic Calibration of a 3D Lidar and Camera by Maximizing Mutual Information, 2012](http://robots.engin.umich.edu/publications/gpandey-2012a.pdf)|C：grayscale, L: reflectivity| mutual information, BB steepest gradient ascent | [Extrinsic Calib](http://robots.engin.umich.edu/SoftwareData/ExtrinsicCalib)|*|
-|[Automatic Calibration of Lidar and Camera Images using Normalized Mutual Information, 2013](http://www-personal.acfr.usyd.edu.au/jnieto/Publications_files/TaylorICRA2013.pdf)|C:grayscale, L: reflectivity, noraml | normalized MI, particle swarm | *|*|
+|[Automatic Calibration of Lidar and Camera Images using Normalized Mutual Information, 2013](http://www-personal.acfr.usyd.edu.au/jnieto/Publications_files/TaylorICRA2013.pdf)|C:grayscale, L: reflectivity, normal | normalized MI, particle swarm | *|*|
 |[Automatic Online Calibration of Cameras and Lasers, 2013](http://www.roboticsproceedings.org/rss09/p29.pdf)|C: Canny edge, L: depth-discontinuous edge| correlation, grid search | * | * |
 |[SOIC: Semantic Online Initialization and Calibration for LiDAR and Camera, 2020](https://arxiv.org/pdf/2003.04260)|semantic centroid| PnP|*|*|
 |[A Low-cost and Accurate Lidar-assisted Visual SLAM System, 2021](http://www.zywok.com:20441/index.php/s/xEqCafR6dEp4REZ)|C: edge(grayscale), L: edge (reflectivity, depth projection) | ICP,  coordinate descent algorithms | [CamVox](https://github.com/ISEE-Technology/CamVox) |*|
 |[Pixel-level Extrinsic Self Calibration of High Resolution LiDAR and Camera in Targetless Environments,2021](http://arxiv.org/abs/2103.01627)|C:Canny edge(grayscale), L: depth-continuous edge|point-to-line, Gaussian-Newton|[livox_camera_calib](https://github.com/hku-mars/livox_camera_calib)|*|
 |[CRLF: Automatic Calibration and Refinement based on Line Feature for LiDAR and Camera in Road Scenes, 2021](https://arxiv.org/pdf/2103.04558v1.pdf)|C:straight line, L: straight line | perspective3-lines (P3L) | * | [CN](https://cloud.tencent.com/developer/article/1805735) |
 |[Fast and Accurate Extrinsic Calibration for Multiple LiDARs and Cameras,2021](https://arxiv.org/pdf/2109.06550.pdf)|C:Canny edge(grayscale), L: depth-continuous edge|point-to-plane, point-to-edge|[mlcc](https://github.com/hku-mars/mlcc)|*|
-|[OpenCalib: A Multi-sensor Calibration Toolbox for Autonomous Driving, 2022](https://arxiv.org/abs/2205.14087)| * | target-based, target-less, manual |[OpenCalib](https://github.com/PJLab-ADG/SensorsCalibration)|*|
+|[OpenCalib: A Multi-sensor Calibration Toolbox for Autonomous Driving, 2022](https://arxiv.org/abs/2205.14087)| * | target-based, target-less, manual |[SensorsCalibration](https://github.com/PJLab-ADG/SensorsCalibration)|*|
 |[General, Single-shot, Target-less, and Automatic LiDAR-Camera Extrinsic Calibration Toolbox,ICRA 2023](https://arxiv.org/pdf/2302.05094.pdf)|C:keypoints, L: keypoints on intensity images (by SuperGlue)|reprojection error minimization, RANSAC|[direct_visual_lidar_calibration](https://github.com/koide3/direct_visual_lidar_calibration)|*|
 #### 2.2.2. Deep-learning methods
 |Paper|Feature|Toolbox|Note|
